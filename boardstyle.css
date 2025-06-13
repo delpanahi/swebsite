@@ -68,3 +68,27 @@ nav{
     border: 1px solid #EE82EE;
     background: transparent;
 }
+
+.president {
+    img {
+        left: 15%;
+        top: 30%;
+        position: absolute;
+    }
+}
+
+.vice {
+    img {
+        left: 15%;
+        top: 45%;
+        position: absolute;
+    }
+}
+.secretary{
+    img {
+        left: 15%;
+        top: 60%;
+        position: absolute;
+    }
+
+}
