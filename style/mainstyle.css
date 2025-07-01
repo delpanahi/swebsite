@@ -7,23 +7,31 @@
     box-sizing: border-box;
 }
 
+.background {
+    width: 100%;
+    min-height: 2000px;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2)), url("/Users/delarapanahi/Documents/swebsite/imgs/artistic-blurry-colorful-wallpaper-background.jpg");
+    background-repeat: repeat-y;
+    background-size: auto;
+    background-position: center top;
+    position: relative;
+}
+
 header{
     width: 100%;
     height: 70px;
     /* background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)) , url("greenback.jpeg"); */
-    background-size: cover;
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents image tiling */
     font-family: 'Poppins',sans-serif;
 }
 
 body {
     width: 100%;
-    height: 1100px;
+    /*
+    min-height: 100vh;
     background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)) , url("/Users/delarapanahi/Documents/swebsite/imgs/artistic-blurry-colorful-wallpaper-background.jpg");
-    background-size: cover;
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center; /* Centers the image 
+    background-repeat: repeat-y; */
     font-family: 'Poppins',sans-serif;
 } 
 
@@ -70,9 +78,9 @@ nav{
 }
 
 p {
-    top: 24%;
+    top: 10%;
     left: 36%;
-    position: absolute;
+    position: absolute; 
     color: #FFCD00;
     text-align: center;
     font-size: 18px;
@@ -81,8 +89,8 @@ p {
 
 .greetings {
     img {
-        top: 35%;
-        left: 34%;
+        top: 15%;
+        left: 36%;
         position: absolute;
         border: 7px solid #800080;
 
@@ -91,7 +99,7 @@ p {
 
 .sweInfoHeader {
     p {
-        top: 35%;
+        top: 15%;
         left: 5%;
         position: absolute;
         text-align: center;
@@ -103,7 +111,7 @@ p {
 }
 .sweInfo {
     p {
-        top: 39%;
+        top: 18%;
         left: 5%;
         position: absolute;
         text-align: justify;
@@ -115,7 +123,7 @@ p {
 
 .sweInfoPic {
     img {
-        top: 60%;
+        top: 25%;
         left: 5%;
         position: absolute;
         border: 7px solid #800080;
@@ -124,7 +132,7 @@ p {
 
 .sweClarksonHeader {
     p {
-        top: 35%;
+        top: 15%;
         left: 71%;
         position: absolute;
         text-align: center;
@@ -138,7 +146,7 @@ p {
 
 .sweClarkson {
     p {
-        top: 39%;
+        top: 18%;
         left: 71%;
         position: absolute;
         text-align: justify;
@@ -150,8 +158,8 @@ p {
 }
 .sweClarksonPic {
     img {
-        top: 60%;
-        right: 5%;
+        top: 25%;
+        right: 8%;
         position: absolute;
         border: 7px solid #800080;
     }
@@ -161,15 +169,15 @@ p {
     color: #FFCD00;
     nav {
         width: 20%;
-        height: 20%;
+        height: 10%;
         background: linear-gradient(#800080, #EE82EE, #800080);
         border:7px solid #800080;
         display: flex;
         justify-content: space-around;
         align-items: center;
         position: absolute;
-        top: 93%;
-        left: 42%;
+        top: 35%;
+        left: 40%;
         font-weight: bold;
         font-size: 25px;
         color: #FFCD00;
