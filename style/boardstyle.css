@@ -10,7 +10,7 @@
 .background {
     width: 100%;
     min-height: 3000px;
-    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2)), url("./imgs/artistic-blurry-colorful-wallpaper-background.jpg");
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2)), url("/imgs/artistic-blurry-colorful-wallpaper-background.jpg");
     background-repeat: repeat-y;
     background-size: auto;
     background-position: center top;
