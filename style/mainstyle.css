@@ -198,3 +198,123 @@ p {
     
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    /* Make nav vertical */
+    nav {
+      flex-direction: column;
+      height: auto;
+      position: static;
+      text-align: center;
+      padding: 10px 0;
+    }
+  
+    .logo {
+      font-size: 16px;
+      position: static;
+      margin: 10px auto;
+    }
+  
+    .menu a {
+      display: block;
+      padding: 10px;
+      font-size: 16px;
+      text-align: center;
+    }
+  
+    /* General text styles */
+    p, 
+    .sweInfo p, 
+    .sweClarkson p, 
+    .sweInfoHeader p, 
+    .sweClarksonHeader p,
+    .president-header p,
+    .president-name p,
+    .vp-header p,
+    .vp-name p,
+    .treasurer-header p,
+    .treasurer-name p,
+    .secretary-header p,
+    .secretary-name p,
+    .conf-header p,
+    .conf-name p,
+    .fundraiser-header p,
+    .fundraiser-name p,
+    .outreach-header p,
+    .outreach-name p,
+    .rec-header p,
+    .rec-name p,
+    .abbie-header p,
+    .abbie-name p,
+    .lia-header p,
+    .lia-name p,
+    .prof-header p,
+    .prof-name p,
+    .publicity-header p,
+    .publicity-name p,
+    .soph-header p,
+    .soph-name p,
+    .fresh-header p,
+    .fresh-name p {
+      position: static !important;
+      font-size: 14px !important;
+      text-align: center !important;
+      margin: 10px auto !important;
+    }
+  
+    ul {
+      position: static !important;
+      font-size: 14px !important;
+      line-height: 1.6;
+      text-align: center;
+      margin: 10px auto;
+      padding: 0 10px;
+    }
+  
+    /* Images */
+    img {
+      position: static !important;
+      display: block;
+      max-width: 90% !important;
+      height: auto !important;
+      margin: 10px auto;
+    }
+  
+    /* Button container */
+    .meetBoard nav {
+      position: static;
+      width: 90%;
+      margin: 20px auto;
+      font-size: 20px;
+      padding: 10px;
+    }
+  
+    /* Background image handling */
+    .background {
+      background-size: cover;
+    }
+  
+    /* Prevent sideways scrolling */
+    body {
+      overflow-x: hidden;
+    }
+  
+  }
+  
