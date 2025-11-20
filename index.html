@@ -1,93 +1,101 @@
-<html>
-<!-- new html file for the homepage -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - CU SWE</title>
+    <link rel="stylesheet" href="./style/mainstyle.css">
+</head>
+
 <body>
-    <div class = "background">
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home - CU SWE</title>
-        <!-- importing style.css for formatting -->
-       <!--- <link rel="stylesheet" href="/Users/delarapanahi/Documents/swebsite/style/mainstyle.css"> -->
+    <div class="background">
 
-       <link rel="stylesheet" href="./style/mainstyle.css">
+        <!-- Header -->
+        <header class="top-header">
+            <nav>
+                <img src="./imgs/shield green and gold_0.png" alt="Clarkson Logo" class="header-img">
+                <div class="logo">
+                    The Society of Women Engineers
+                    at Clarkson University
+                </div>
+                <img src="./imgs/SWE_Full_Master_Brand_RGB 23.png" alt="SWE Logo" class="header-img">
+            </nav>
+        </header>
 
-    </head>
-
-
-
+        <!-- Menu navigation -->
         <header>
+            <div class="menu">
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="conferences.html">Conferences</a>
+                    <a href="fundraisers.html">Fundraisers</a>
+                    <a href="outreach.html">Outreach</a>
+                    <a href="recruitment.html">Recruitment</a>
+                    <a href="board.html">Leadership</a>
+                </nav>
+            </div>
+        </header>
 
-    <!-- logos for Clarkson and Society of Women Engineers -->
-    <nav>
-        <img src="./imgs/shield green and gold_0.png" alt="Clarkson Logo" style="max-width: 20%; max-height: 65px; position: absolute; left: 5%;">
-    <div class="logo">
-    The Society of Women Engineers <br>
-    at Clarkson University
-    </div>
-    <img src="./imgs/SWE_Full_Master_Brand_RGB 23.png" alt="SWE Logo" style="max-width: 20%; max-height: 65px; position: absolute; left: 77.5%;">
-    </nav>
-    </header>
+        <!-- INTRO TEXT WITH TYPEWRITER -->
+        <p id="intro-text" class="typewriter">
+            Hey! We're Clarkson University's chapter of the Society of Women Engineers (SWE)!
+        </p>
 
-    <header>
-    <!-- menu pages: Home, Heat Pumps, About Us -->
-    <div class="menu">
-        <nav>
-    
-                <a href="index.html">Home</a>
-                <a href="conferences.html">Conferences</a>
-                <a href="fundraisers.html">Fundraisers</a>
-                <a href="outreach.html">Outreach</a>
-                <a href="recruitment.html">Recruitment</a>
-        
-        </nav>
-    </div>
-    </header>
+        <!-- MAIN IMAGE + CAPTION -->
+        <section class="image-block">
+            <img src="./imgs/SWEmain.jpg" alt="SWE GBM Pic"  class = "scroll-fade">
+            <p class="caption"  class = "scroll-fade">Our wonderful general body members!</p>
+        </section>
+
+        <!-- SWE INFO -->
+        <section class="info-section" class = scroll-fade>
+            <h2>THE SOCIETY OF WOMEN ENGINEERS (SWE)</h2>
+            <p>
+                was founded in 1950 in an effort to empower women scientists
+                and engineers. <br> This organization values professional excellence,
+                integrity, and mutual support. <br> Since this organization's founding,
+                there are now around 50,000 members worldwide.
+            </p>
+        </section>
+
+        <!-- SWE INFO IMAGE + CAPTION -->
+        <section class="image-block">
+            <img src="./imgs/swe_promote.jpg" alt="SWE Promotion Pic"  class = "scroll-fade">
+            <p class="caption"  class = "scroll-fade">Some members promoting SWE at our Activities Fair!</p>
+        </section>
+
+        <!-- CLARKSON SWE INFO -->
+        <section class="info-section">
+            <h2  class = "scroll-fade">CLARKSON'S CHAPTER OF SWE</h2>
+            <p  class = "scroll-fade">
+                was founded in 1973, making it the first chapter of SWE in New York state. <br>
+                Our chapter aims to strengthen inclusivity while providing academic,
+                professional, <br> and social support for women in engineering at Clarkson.
+            </p>
+        </section>
+
+        <!-- CLARKSON SWE IMAGE + CAPTION
+        <section class="image-block">
+            <img src="./imgs/swe_bonfire.jpg" alt="SWE S2S Pic"  class = "scroll-fade">
+            <p class="caption"  class = "scroll-fade">Fun bonfire night!</p>
+        </section> -->
+
+        <!-- MEMBERSHIP INVITE -->
+        <section class="membership-block">
+            <p  class = "scroll-fade">Want to aspire, advance, and achieve with us?<br>
+            Check out our membership events and opportunities!</p>
+        </section>
 
 
-    <p id="intro-text">Hello! We're Clarkson University's chapter of <br> the Society of Women Engineers (SWE).</p>
 
-    <div class="greetings">
-    <img src="./imgs/SWEmain.jpg" alt="SWE GBM Pic" style="max-width: 30%; max-height: 15%; ">
-    </div>
+        <!-- MEET BOARD BUTTON -->
+        <section class="membership-button">
+            <nav>
+                <a href="membership.html"  class = "scroll-fade">MEMBERSHIP INFO</a>
+            </nav>
+        </section>
 
-    <div class = "sweInfoHeader">
-        <p> THE SOCIETY OF WOMEN ENGINEERS (SWE) </p>
-    </div>
-
-    <div class = "sweInfo">
-        <p> was founded in 1950 in an effort to empower women <br> scientists
-            and engineers. This organization values <br> professional excellence,
-            integrity, and mutual support. <br>Since this organization's founding, there are <br>
-            now around 50,000 members worldwide.</p>
-    </div>
-
-    <div class = "sweInfoPic">
-        <img src="./imgs/SWEiceskate.jpg" alt="SWE Ice Pic" style="max-width: 20%; max-height: 20%; ">
-    </div>
-
-    <div class = "sweClarksonHeader">
-        <p> CLARKSON'S CHAPTER OF SWE</p>
-    </div>
-
-    <div class = "sweClarkson">
-        <p> was founded in 1973, making it the first chapter <br> of SWE in New York state. 
-            Our chapter aims to <br> strengthen inclusivity while providing academic, <br> professional,
-            and social support for women <br>in engineering at Clarkson. </p>
-    </div>
-
-    <div class = "sweClarksonPic">
-        <img src="./imgs/SWES2S.jpg" alt="SWE S2S Pic" style="max-width: 20%; max-height: 20%; ">
-    </div>
-
-    <div class = "meetBoard">
-        <nav>
-            <a href="board.html" style="text-decoration: none;">MEET THE <br> 2025 SWE BOARD</a> </nav>
-    </div>
-
-    <script src="./modernize.js" defer></script>
+        <script src="./modernize.js" defer></script>
     </div>
 </body>
 </html>
