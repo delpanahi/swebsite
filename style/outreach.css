@@ -61,6 +61,56 @@ body {
     border-bottom: 2px solid #800080;
 }
 
+.outreach {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.outreach img {
+    
+    max-width: 200px;
+    border: 6px solid #800080;
+    border-radius: 6px;
+    
+}
+
+.outheader {
+    width: 90%;
+    margin: 20px auto 5px auto;
+    text-align: center;
+}
+
+.outheader p {
+    font-size: 22px;
+    font-weight: bold;
+    color: #FFCD00;
+}
+
+.outname {
+    width: 90%;
+    margin: 0 auto 40px auto;
+    text-align: center;
+}
+
+.outname p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #EE82EE;
+    line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

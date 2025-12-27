@@ -8,6 +8,21 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2)),
+                url("../imgs/artistic-blurry-colorful-wallpaper-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 80px;
+}
+
+html, body {
+    height: 100%;
 }
 
 .background {
@@ -68,10 +83,43 @@ body {
     top: 20%;
 }
 
+.abbie-pic {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.abbie-pic img {
+    max-width: 200px;
+    border: 6px solid #800080;
+    border-radius: 6px;
+}
 
 
+.memheader {
+    width: 90%;
+    margin: 20px auto 5px auto;
+    text-align: center;
+}
 
+.memheader p {
+    font-size: 22px;
+    font-weight: bold;
+    color: #FFCD00;
+}
 
+.memname {
+    width: 90%;
+    margin: 0 auto 40px auto;
+    text-align: center;
+}
+
+.memname p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #EE82EE;
+    line-height: 1.6;
+}
 
 
 /* MOBILE FRIENDLY */
