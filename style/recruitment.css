@@ -101,7 +101,17 @@ body {
     line-height: 1.6;
 }
 
-
+.uprec p {
+    
+        left: 25%;
+        top: 90%;
+        position: absolute;
+        color: #FFCD00;
+        text-align: center;
+        font-size: 28px;
+        font-weight: bold;
+    
+}
 
 
 

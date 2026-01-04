@@ -78,23 +78,27 @@ html, body {
 
 /* BODY */
 
-.iframe {
-    left: 30%;
-    top: 20%;
-}
-
-.abbie-pic {
-    width: 90%;
+.calendar {
+    display: flex;
+    justify-content: center;
     margin: 40px auto;
-    text-align: center;
 }
 
-.abbie-pic img {
+
+.chairs-pics {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 40px auto;
+    flex-wrap: wrap; /* allows stacking on small screens */
+}
+
+.abbie-pic img,
+.lia-pic img {
     max-width: 200px;
     border: 6px solid #800080;
     border-radius: 6px;
 }
-
 
 .memheader {
     width: 90%;
