@@ -17,7 +17,7 @@ body {
                 url("../imgs/artistic-blurry-colorful-wallpaper-background.jpg");
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+
     padding-bottom: 80px;
 }
 
@@ -178,9 +178,9 @@ body {
 
 /* --- SCROLL ANIMATION DEFAULT STATE --- */
 .scroll-fade {
-    opacity: 0;
-    transform: translateY(40px);
-    animation: fadeUp ease-out;
+    opacity: 1;
+    transform: none;
+    animation: none;
     animation-duration: 1s;
     animation-fill-mode: forwards;
     animation-timeline: view();
