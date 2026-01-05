@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2)),
+                url("../imgs/artistic-blurry-colorful-wallpaper-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 80px;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+.background {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2)),
+                url("../imgs/artistic-blurry-colorful-wallpaper-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 80px;
+}
+
+/* HEADER */
+.top-header nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    position: relative;
+}
+
+.header-img {
+    max-height: 70px;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    color: #EE82EE;
+}
+
+/* MENU */
+.menu nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #EE82EE;
+    font-size: 18px;
+}
+
+.menu a:hover {
+    border-bottom: 2px solid #800080;
+}
+
+
+.prof {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.prof img {
+    
+    max-width: 200px;
+    border: 6px solid #800080;
+    border-radius: 6px;
+    
+}
+
+.profheader {
+    width: 90%;
+    margin: 20px auto 5px auto;
+    text-align: center;
+}
+
+.profheader p {
+    font-size: 22px;
+    font-weight: bold;
+    color: #FFCD00;
+}
+
+.profname {
+    width: 90%;
+    margin: 0 auto 40px auto;
+    text-align: center;
+}
+
+.profname p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #EE82EE;
+    line-height: 1.6;
+}
+
+
+.section {
+    margin: 80px auto;
+}
+
+
+.profdev {
+    margin-top: 150px;
+    width: 90%;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.profdev p {
+    font-size: 26px;
+    font-weight: bold;
+    color: #FFCD00;
+    margin-bottom: 30px;
+}
+
+/* --- PHOTO GALLERY --- */
+.prof-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.prof-gallery img {
+    width: 100%;
+    height: auto;
+    border: 6px solid #800080;
+    border-radius: 6px;
+    transition: transform 0.3s ease;
+    aspect-ratio: auto;
+    object-fit: contain; 
+}
+
+/* Optional hover effect */
+.prof-gallery img:hover {
+    transform: scale(1.03);
+
+}
+
+
+
+
