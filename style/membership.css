@@ -79,6 +79,7 @@ html, body {
 /* BODY */
 
 .calendar {
+    top: 50%;
     display: flex;
     justify-content: center;
     margin: 40px auto;
@@ -124,6 +125,58 @@ html, body {
     color: #EE82EE;
     line-height: 1.6;
 }
+
+.calendar iframe {
+    filter:
+    invert(1)
+    sepia(0.4)
+    saturate(3)
+    hue-rotate(260deg)
+    brightness(0.85)
+    contrast(1.1);
+}
+
+.discord-button nav {
+    width: fit-content;
+    margin: 60px auto;
+    padding: 16px 36px;
+
+    background: linear-gradient(135deg, #a100a1, #6b0f6b);
+    border-radius: 999px; /* pill shape */
+
+    box-shadow: 
+        0 8px 20px rgba(128, 0, 128, 0.35),
+        inset 0 1px 0 rgba(255,255,255,0.15);
+
+    transition: 
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        background 0.25s ease;
+}
+
+
+.discord-button nav a {
+    text-decoration: none;
+    color: #FFCD00;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* HOVER EFFECT */
+.discord-button nav:hover {
+    transform: translateY(-4px) scale(1.03);
+
+    box-shadow: 
+        0 14px 35px rgba(255, 205, 0, 0.45),
+        0 0 20px rgba(255, 205, 0, 0.35);
+}
+
+/* CLICK FEEDBACK */
+.discord-button nav:active {
+    transform: translateY(-1px) scale(1);
+}
+
 
 
 /* MOBILE FRIENDLY */

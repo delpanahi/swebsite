@@ -147,25 +147,50 @@ body {
 
 /* MEMBERSHIP BUTTON */
 .membership-button nav {
-    width: 20%;
-    height: 20%;
-    margin: 40px auto;
-    padding: 20px;
-    background: linear-gradient(#bb06bb, #7e177e, #800080);
-    border: 6px solid #800080;
-    text-align: center;
+    width: fit-content;
+    margin: 60px auto;
+    padding: 16px 36px;
+
+    background: linear-gradient(135deg, #a100a1, #6b0f6b);
+    border-radius: 999px; /* pill shape */
+
+    box-shadow: 
+        0 8px 20px rgba(128, 0, 128, 0.35),
+        inset 0 1px 0 rgba(255,255,255,0.15);
+
+    transition: 
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        background 0.25s ease;
 }
 
+/* TEXT */
 .membership-button nav a {
     text-decoration: none;
     color: #FFCD00;
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
 }
 
+/* HOVER EFFECT */
 .membership-button nav:hover {
-    border-color: #FFCD00;
+    transform: translateY(-4px) scale(1.03);
+
+    box-shadow: 
+        0 14px 35px rgba(255, 205, 0, 0.45),
+        0 0 20px rgba(255, 205, 0, 0.35);
 }
+
+/* CLICK FEEDBACK */
+.membership-button nav:active {
+    transform: translateY(-1px) scale(1);
+}
+
+
+
+
+
 
 /* MOBILE FRIENDLY */
 @media screen and (max-width: 768px) {

@@ -8,6 +8,21 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2)),
+                url("../imgs/artistic-blurry-colorful-wallpaper-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 80px;
+}
+
+html, body {
+    height: 100%;
 }
 
 .background {
@@ -103,9 +118,9 @@ body {
 
 .uprec p {
     
-        left: 25%;
+        /* left: 33%;
         top: 90%;
-        position: absolute;
+        position: absolute; */
         color: #FFCD00;
         text-align: center;
         font-size: 28px;
@@ -113,6 +128,55 @@ body {
     
 }
 
+.preo p {
+    
+        /* left: 15%;
+        top: 100%; 
+
+        position: absolute; */
+        color: #EE82EE;
+        text-align: center;
+        font-size: 16px;
+        font-weight: italic;
+    
+}
+
+
+.preo-content {
+    margin-top: 200px;
+    width: 90%;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.preo-content p {
+    font-size: 26px;
+    font-weight: bold;
+    color: #FFCD00;
+    margin-bottom: 30px;
+}
+
+/* --- PHOTO GALLERY --- */
+.preo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.preo-gallery img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border: 6px solid #800080;
+    border-radius: 6px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Optional hover effect */
+.preo-gallery img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
 
 
 
