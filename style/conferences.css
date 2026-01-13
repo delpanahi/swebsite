@@ -31,7 +31,7 @@ body {
 
 .background {
     position: relative;
-    background: url("../imgs/artistic-blurry-colorful-wallpaper-background.jpg") center / cover no-repeat;
+    background: url("../imgs/artistic-blurry-colorful-wallpaper-background.webp") center / cover no-repeat;
     /* background-attachment: scroll; /* explicitly set */
     /* backface-visibility: hidden;
     transform: translateZ(0); */ 

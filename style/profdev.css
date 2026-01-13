@@ -14,10 +14,9 @@ body {
   
 
     background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2)),
-                url("../imgs/artistic-blurry-colorful-wallpaper-background.jpg");
+                url("../imgs/artistic-blurry-colorful-wallpaper-background.webp");
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     padding-bottom: 80px;
 }
 
@@ -162,4 +161,41 @@ html, body {
 
 
 
+/* MOBILE FRIENDLY */
+@media screen and (max-width: 768px) {
+    #intro-text { font-size: 22px; }
+    .info-section p { font-size: 16px; }
+    .membership-block p { font-size: 18px; }
+    .meetBoard nav { width: 90%; }
+}
 
+@media (max-width: 768px) {
+    .background {
+        background-attachment: scroll;
+    }
+}
+
+
+
+/* --- SCROLL ANIMATION DEFAULT STATE --- */
+.scroll-fade {
+    opacity: 0;
+    transform: translateY(40px);
+    animation: none;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+/* --- THE ANIMATION ITSELF --- */
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

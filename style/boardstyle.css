@@ -8,7 +8,7 @@ body { font-family: 'Poppins', sans-serif; color: #EEE; }
   width: 100%;
   min-height: 100vh;
   background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.25)),
-              url("../imgs/artistic-blurry-colorful-wallpaper-background.jpg");
+              url("../imgs/artistic-blurry-colorful-wallpaper-background.webp");
   background-size: cover;
   background-position: center;
   padding-bottom: 80px;
