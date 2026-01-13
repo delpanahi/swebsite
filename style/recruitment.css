@@ -192,12 +192,9 @@ html, body {
 /* --- SCROLL ANIMATION DEFAULT STATE --- */
 .scroll-fade {
     opacity: 0;
-    transform: translateY(40px);
+    transform: none;
     animation: none;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%;
+
 }
 
 /* --- THE ANIMATION ITSELF --- */
