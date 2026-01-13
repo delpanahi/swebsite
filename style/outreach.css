@@ -108,24 +108,26 @@ img {
 }
 
 
-.upout p {
-    
-        left: 25%;
-        top: 80%;
-        position: absolute;
-        color: #FFCD00;
-        text-align: center;
-        font-size: 28px;
-        font-weight: bold;
-    
+.upout {
+    width: 90%;
+    margin: 60px auto 40px;
+    text-align: center;
 }
 
+.upout p {
+    position: static;   /* or just remove position entirely */
+    font-size: 28px;
+    font-weight: bold;
+    color: #FFCD00;
+}
+
+
 .outevents {
-    margin-top: 160px;
+    margin-top: 60px;
     display: flex;
-    justify-content: center; /* horizontal centering */
-    align-items: center;     /* vertical alignment */
-    gap: 30px;               /* <--- space between cards */
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;      /* ← THIS */
 }
 
 
@@ -321,5 +323,27 @@ img {
         font-size: 15px;
         line-height: 1.4;
         text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .front {
+        display: none;
+    }
+
+    .back {
+        transform: translateY(0);
+        position: static;
+        font-size: 15px;
+        padding: 12px;
+        text-align: center;
+    }
+
+    .hover-card1,
+    .hover-card2,
+    .hover-card3,
+    .hover-card4 {
+        height: auto;
+        min-height: 140px;
     }
 }
