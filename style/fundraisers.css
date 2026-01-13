@@ -207,6 +207,21 @@ html, body {
     
 }
 
+.fundraiser {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 40px auto;
+    flex-wrap: wrap; /* allows stacking on small screens */
+}
+
+
+.fundraiser img {
+    max-width: 200px;
+    border: 6px solid #800080;
+    border-radius: 6px;
+}
+
 
 
 /* MOBILE FRIENDLY */
@@ -272,3 +287,4 @@ html, body {
         padding: 6px 10px;
     }
 }
+

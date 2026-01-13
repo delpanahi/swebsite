@@ -304,6 +304,20 @@ body {
 
 }
 
+.conf {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 40px auto;
+    flex-wrap: wrap; /* allows stacking on small screens */
+}
+
+
+.conf img {
+    max-width: 200px;
+    border: 6px solid #800080;
+    border-radius: 6px;
+}
 
 
 
@@ -390,3 +404,5 @@ html {
         padding: 6px 10px;
     }
 }
+
+
