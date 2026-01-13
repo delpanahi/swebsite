@@ -259,12 +259,7 @@ img {
 }
 
 
-
-
-
-
-
-
+/*retry for push*/
 /* MOBILE FRIENDLY */
 @media screen and (max-width: 768px) {
     #intro-text { font-size: 22px; }
