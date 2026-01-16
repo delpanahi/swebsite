@@ -7,7 +7,8 @@ I decided, though, that we could increase engagement by having a website. This w
 
 I have developed this website from scratch, mainly using HTML/CSS and JavaScript.
 
-### As of January 2026, I am currently maintaining and cleaning up this repo!
+## As of January 2026, I am currently maintaining and cleaning up this repo!
+### Including making this website more mobile-friendly.
 
 `index.html `
 - Introduces users to SWE and allows them to explore membership info.
